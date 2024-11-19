@@ -1,31 +1,30 @@
 ---
-title: My Super Awesome Tutorial
-date: 1970-01-01
+title: ECE 196 Team 1 - Tutorial: Anti-Theft Unit for Electric Scooters
+
+date: 2024-11-18
 authors:
-  - name: John Doe
-  - name: Mary Jane
+  - name: Yijie He
+  - name: Junyi Wu
 ---
 
 ![relevant graphic or workshop logo](image/path)
 
 ## Introduction
 
-Write a short section on what the tutorial is aiming to accomplish.
-What is the motivation behind the tutorial?
-What do you want readers to gain from the tutorial?
+This tutorial guides you through building a custom anti-theft security system for electric scooters. With the alarming rate of increasing micro-mobility device theft such as electric scooters and bicycles on campus, it is very important to secure your electric scooter. Both of our team members have experienced their electric scooters being stolen in the past, and we know how important the issue is, so we want to help any UCSD student who is concerned by this issue. Our solution provides an affordable and effective way to secure your electric scooter using readily available components. We hope this tutorial can help you secure your electric scooter, gaining some practical embedded development skills, and save you from the headache of dealing with stolen scooters.
 
 ### Learning Objectives
 
-- Bullet list of skills/concepts to be covered
-
-Any additional notes from the developers can be included here.
+- Understanding basic electronics and microcontroller programming
+- Understanding basic PCB design
+- Building a motion detection system with BNO sensors
+- Developing practical problem solving skills
 
 ### Background Information
 
-Describe your topic here. What does it do? Why do you use it?
-Are there other similar things to use? What are the pros and cons?
-Explain important concepts that are necessary to understand.
-Include (and cite if needed) any visuals that will help the audience understand.
+Micro-mobility devices, including bikes and electric scooters, are easily stolen on the UCSD campus. 
+According to the 2024 Annual Security & Fire Safety Report from the UCSD Police Department, theft of micro-mobility devices such as electric scooters and bicycles has increased at an alarming rate. Causing thousands of dollar lost and extremely inconvenience for students and faculties.
+![relevant graphic or workshop logo](./stats_20about_20theft.jpg)
 
 ## Getting Started
 
@@ -49,12 +48,23 @@ You can either make your own tutorials or include a link to them.
 
 ### Required Components
 
-List your required hardware components and the quantities here.
+This is all the electrical components needed for the project.
 
-| Component Name | Quanitity |
-| -------------- | --------- |
-|                |           |
-|                |           |
+| Component Name | Quantity |
+|----------------|-----------|
+| ESP32-S3 Dev Board | 1 |
+| ESP32-C6-MINI-1-N4 | 1 |
+| JS102011SAQN Slide Switch | 5 |
+| Conn_01x05 PinHeader_1x05_P2.54mm_Vertical | 1 |
+| 603 0.1uF Capacitor | 4 |
+| 603 10kΩ Resistor | 3 |
+| 603 2.2kΩ Resistor | 4 |
+| BNO085 Sensor | 2 |
+| 3W DC Speaker | 1 |
+| LP103454 3.7V Battery | 2 |
+| Dupont Wire | Based On Need |
+
+You also need to 3D-printed some enclosures for putting the boards onto your scooter and your lock.
 
 ### Required Tools and Equipment
 
