@@ -248,6 +248,9 @@ The BNO085 sensors are positioned strategically to detect any movement of the sc
 ### Useful links
 
 [BNO085 Datasheet](https://www.mouser.com/datasheet/2/1480/BNO080_085_Datasheet-3196201.pdf)
+
 [BNO Example Code](https://github.com/sparkfun/SparkFun_BNO08x_Arduino_Library/blob/main/examples/Example_11_RawReadings/Example_11_RawReadings.ino)
+
 [Onshape Tutorial](https://learn.onshape.com)
+
 [Our Github Code Repository](https://github.com/ECE-196/final-project-team1)
