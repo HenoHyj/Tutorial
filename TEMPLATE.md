@@ -1,5 +1,5 @@
 ---
-title: ECE 196 Team 1 - Tutorial: Anti-Theft Unit for Electric Scooters
+title: "ECE 196 Team 1 - Tutorial: Anti-Theft Unit for Electric Scooters"
 
 date: 2024-11-18
 authors:
