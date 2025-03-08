@@ -56,10 +56,10 @@ You also need to 3D-printed some enclosures for putting the boards onto your sco
 Soldering station, hot plate, solder paste, bike lock, e-scooter/bike.  
 Not required, but recommended: logic analyzer, stencil holder.
 
-## Part 01: ESP32
+## Part 01: Getting start with PlatfromIO
 
 ### Introduction
-
+介绍一下什么是platfrom IO 
 In this section we are about to introduce how to use platform IO to build firmware on ESP32-S3 Dev Board.
 
 ### Objective
@@ -69,7 +69,7 @@ In this section we are about to introduce how to use platform IO to build firmwa
 - Develop firmware for motion detection and alarm triggering
 
 ### Background Information
-
+和intro合并一下 这段太多了
 In this section, you will learn how to set up and program an ESP32-S3 development board using PlatformIO, an open-source ecosystem for IoT development. Key technical skills you need to know before starting this part include:
 
 - Setting up PlatformIO in VS Code
@@ -95,7 +95,7 @@ These foundational skills will be essential for implementing the security featur
 3. Create a new project, selecting "Espressif ESP32-S3 Dev Module" as the board and "Arduino" as the framework
 
 #### 2. Basic Configuration
-
+整个重写 
 Add the following to your `platformio.ini` file:
 
 ```
