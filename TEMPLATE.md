@@ -180,9 +180,10 @@ lib_deps =
 1. Enable bootloader mode by holding down the BOOT button and pressing the reset button on your ESP32-S3 Dev Board.
 2. Connect the ESP32-S3 Dev Board to your computer using a USB-C cable.
 3. Copy the code from our github repository [Our Github Code Repository](https://github.com/ECE-196/final-project-team1) and paste it into the `main.cpp` file.
-4. Select the "Upload and Monitor" option and click on the "Upload and Monitor" button.  
+4. Select the "Upload and Monitor" option and click on the "Upload and Monitor" button. Make sure to select the correct port. 
 ![pio2](./pioupload.png)                  ![pio2](./monitor.png)
 
+5. If everything configured correctly, you should now see the IMU data in the serial monitor.
 
 #### Optional: Combination Lock PCB Design
 
